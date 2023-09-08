@@ -27,7 +27,7 @@ const Explore = () => {
               explore
             </>
           }
-          styles='text-center'
+          textStyles='text-center'
         />
         <div className='mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5'>
           {exploreWorlds.map((world, index) => (
